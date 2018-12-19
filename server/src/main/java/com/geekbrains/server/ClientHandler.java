@@ -30,7 +30,6 @@ public class ClientHandler {
     }
 
 
-
     public void startEchoThread() {
         new Thread(() -> {
             try {
